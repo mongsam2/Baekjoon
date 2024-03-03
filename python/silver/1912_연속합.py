@@ -32,7 +32,8 @@ for i in range(1, n):
     numbers[i] = max(numbers[i], numbers[i-1] + numbers[i])
 
 print(max(numbers))
-'''** recursion error 밯생!!
+'''
+** recursion error 밯생!!
 n = int(input())
 numbers = list(map(int, input().split()))
 max_sum = -1000*n
@@ -54,7 +55,8 @@ for index in range(n):
 print(max_sum)'''
 
 
-'''** 시간초과!!
+'''
+** 시간초과!!
 n = int(input())
 numbers = list(map(int, input().split()))
 max_total = -1000*n
